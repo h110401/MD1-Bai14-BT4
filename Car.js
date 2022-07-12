@@ -7,7 +7,7 @@ class Car {
 
     init() {
         c.drawImage(this.image, this.x, this.y);
-        this.y += 10;
+        this.y += 8;
         if (this.y > canvas.height) enemyArray.shift();
     }
 }
